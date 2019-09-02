@@ -136,6 +136,11 @@ a {
     background-size:25px;
   }
 
+  .being-social .github a {
+    background:url(../imgs/github.svg) 0 5px no-repeat;
+    background-size: 25px;
+  }
+
 
 
 

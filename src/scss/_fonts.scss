@@ -1,0 +1,35 @@
+// Fonts
+
+@font-face {
+	font-family: "Rubik";
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+	src: url(../fonts/Rubik-VariableFont_wght.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Rubik";
+	font-weight: 100 900;
+	font-style: italic;
+	font-display: swap;
+	src: url(../fonts/Rubik-Italic-VariableFont_wght.woff2) format("woff2");
+}
+
+// Will be using this font when writing blog posts or something else.
+
+@font-face {
+	font-family: "Bitter";
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+	src: url(../fonts/Bitter-VariableFont_wght.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Bitter";
+	font-weight: 100 900;
+	font-style: italic;
+	font-display: swap;
+	src: url(../fonts/Bitter-Italic-VariableFont_wght.woff2) format("woff2");
+}

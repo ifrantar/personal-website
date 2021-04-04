@@ -1,0 +1,213 @@
+:root {
+  --main-background: #ffffff;
+  --primary-color: #653bdb;
+  --primary-type-color: #000000;
+  --social-icons: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-background: #202124;
+    --primary-type-color: #ffffff;
+    --social-icons: #ffffff;
+  }
+}
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+  border: none;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+blockquote::before,
+blockquote::after {
+  content: "";
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Rubik-VariableFont_wght.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Rubik";
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+  src: url(../fonts/Rubik-Italic-VariableFont_wght.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Bitter";
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Bitter-VariableFont_wght.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Bitter";
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+  src: url(../fonts/Bitter-Italic-VariableFont_wght.woff2) format("woff2");
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bitter", serif;
+  font-feature-settings: "lnum";
+  font-variant-numeric: lining-nums;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 3.5rem 0 2rem;
+}
+
+h1, .h1 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1.138888889;
+}
+
+h2, .h2 {
+  font-size: 3.2rem;
+}
+
+h3, .h3 {
+  font-size: 2.8rem;
+}
+
+h4, .h4 {
+  font-size: 2.4rem;
+}
+
+h6, .h6 {
+  font-size: 1.6rem;
+  letter-spacing: 0.03125em;
+  text-transform: uppercase;
+}
+
+.display-1 {
+  font-size: 4.8rem;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}
+
+em,
+i,
+q {
+  font-style: italic;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.leading {
+  font-size: 2.2rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+body {
+  background: var(--main-background);
+  box-sizing: border-box;
+  color: var(--primary-type-color);
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.home {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-points li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.contact-points svg {
+  fill: var(--social-icons);
+}
+
+/*# sourceMappingURL=main.css.map */

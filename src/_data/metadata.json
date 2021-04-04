@@ -1,0 +1,11 @@
+{
+    "title": "Ivan Frantar",
+    "url": "https://ivanfrantar.com/",
+    "language": "en",
+    "description": "Personal website of Ivan Frantar",
+    "author": {
+      "name": "Ivan Frantar",
+      "email": "ivan@ivanfrantar.com",
+      "url": "https://example.com/about-me/"
+    }
+  }

@@ -1,0 +1,62 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bitter', serif;
+    font-feature-settings: "lnum";
+	font-variant-numeric: lining-nums;
+	font-weight: 700;
+	line-height: 1.25;
+	margin: 3.5rem 0 2rem;
+}
+
+h1, .h1 {
+    font-size: 3.6rem;
+	font-weight: 800;
+	line-height: 1.138888889;
+}
+
+h2, .h2 {
+    font-size: 3.2rem;
+}
+
+h3, .h3 {
+    font-size: 2.8rem;
+}
+
+h4, .h4 {
+    font-size: 2.4rem;
+}
+
+h6, .h6 {
+	font-size: 1.6rem;
+	letter-spacing: 0.03125em;
+	text-transform: uppercase;
+}
+
+.display-1 {
+    font-size: 4.8rem;
+}
+
+p {
+	line-height: 1.5;
+	margin: 0 0 1em 0;
+}
+
+em,
+i,
+q {
+	font-style: italic;
+}
+
+a {
+	color: var(--primary-color);
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+
+.leading {
+    font-size: 2.2rem;
+}

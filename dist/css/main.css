@@ -7,6 +7,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --primary-color: #8c65f7;
     --main-background: #202124;
     --primary-type-color: #ffffff;
     --social-icons: #ffffff;

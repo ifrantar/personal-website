@@ -70,8 +70,6 @@ layout: "base.njk"
         </li>
       </ul>
     </div>
-
 </article>
-
 </main>
 

@@ -210,4 +210,11 @@ body {
   fill: var(--social-icons);
 }
 
+@media (max-width: 680px) {
+  .home {
+    height: 100%;
+    padding: 2.8rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

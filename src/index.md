@@ -10,7 +10,7 @@ layout: "base.njk"
 <h1 class="display-1">Hi, Ivan here! 👋</h1>
 <p class="leading">Currently Head of Design at <a href="https://aerlytix.com">Aerlytix</a>. Previously, I worked with the great folks in <a href="https://www.currencyfair.com">CurrencyFair</a> and <a href="https://www.hostelworld.com">Hostelworld</a> and few others in a freelancing capacity.</p>
 <p class="leading">I'm a designer by trade with over 15 years of experience in a number of areas, mainly digital product design, branding and graphic design. I help companies in the process of defining and executing a design strategy for their products and businesses with a human centered and collaborative approach.</p>
-<p class="leading">Get in touch or find me in some of my usual spots</p>
+<p class="leading">Get in touch or find me in some of my usual spots.</p>
 <div class="contact-points">
       <ul>
         <li class="twitter">

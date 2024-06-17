@@ -1,0 +1,31 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageMainHeader = header %}
+{% set pageHeaderSummary = summary %}
+{% set postListItems = pagination.items %}
+
+{# If this is a tag, grab those items instead as one large collection #}
+{% if tag %}
+{% set postListItems = collections[tag] %}
+{% set pageMainHeader = 'Blog posts filed under “' + tag + '”' %}
+{% endif %}
+
+{% block content %}
+{% include "partials/page-header.html" %}
+
+<article>
+  <div class="container">
+
+    {# include "partials/events.html" #}
+
+    {% include "partials/post-list.html" %}
+
+    {# If we leave pagination in for tags, the next and prev links will
+    link to tags and be rather confusing, so don't render in that situation #}
+    {% if not tag %}
+    {% include "partials/pagination.html" %}
+    {% endif %}
+  </div>
+</article>
+{% endblock %}

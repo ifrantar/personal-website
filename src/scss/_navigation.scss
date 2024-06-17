@@ -1,0 +1,117 @@
+.navbar {
+    padding-top: .65rem;
+    padding-bottom: .65rem;
+    // border-bottom: 1px solid rgb(240, 240, 240);
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari support */
+
+    &-collapse {
+        flex-grow: inherit;
+    }
+
+    .navbar-nav {
+        margin: auto;
+    }
+
+    .nav-link {
+        font-weight: bold;
+    }
+
+    .nav-item {
+        margin-left: .5rem;
+        margin-right: .5rem;
+
+        .dropdown-menu {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    a {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000;
+
+        &:hover {
+            opacity: .8;
+        }
+
+        &.navbar-brand {
+            font-size: 1.6rem;
+
+            &::before {
+                content: "";
+                background: black;
+                width: 22px;
+                height: 22px;
+                display: inline-block;
+                margin-right: 12px;
+                margin-left: 10px;
+                position: relative;
+                top: 1px;
+            }
+        }
+    }
+
+
+
+
+
+    .navbar__feature {
+        border: 2px solid #000;
+        color: #000;
+        border-radius: 10px;
+        padding-top: 0.45rem;
+        padding-bottom: 0.45rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        background: white;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #000;
+
+        &-icon {
+            svg {
+                fill: #000;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #000;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-collapse {
+        padding-top: 1rem;
+    }
+
+    .navbar .nav-item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,143 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %} 
+{% set pageHeaderSummary = summary %}
+{% set pageMainHeader = header %}
+
+
+{% block content %}
+  {% include "partials/page-header.html" %}
+
+  {% if (headerType == 'blogPost')  %}
+    <article>
+      <div class="container post__container pb-5"> {# So it shows on privacy and cookie policy pages #}
+      {{ content | safe }}
+      </div>
+    </article>
+  {% else %}
+    <article>
+      {{ content | safe }}
+    </article>
+  {% endif %}
+
+{# Job Apply form #}
+  <article class="request-demo-mt bg-light pb-5">
+    <div class="container">
+
+    <div class="col-md-8 mb-5 mx-auto">
+    <div class="card p-5 rounded-6">
+      {# application form starts #}
+      <form class="row g-4" enctype="multipart/form-data" data-netlify="true" id="{{ job }}" name="{{ job }}">
+              <div class="mb-5">
+                <h2 class="h1">Submit your application</h2>
+              </div>
+              <div class="row mb-3">
+                <label for="jobReference" class="col-sm-4 col-form-label">Job Reference</label>
+                <div class="col-sm-8">
+                  <input name="reference" type="text" class="form-control" id="jobReference" value="{{ reference }}" readonly>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="resumeCVCareersForm" class="col-sm-4 col-form-label">Resume/CV</label>
+                <div class="col-sm-8">
+                  <input name="file" type="file" class="form-control" id="resumeCVCareersForm" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="fullNameCareersForm" class="col-sm-4 col-form-label">Full name</label>
+                <div class="col-sm-8">
+                  <input name="name" type="text" class="form-control" id="fullNameCareersForm" placeholder="Your full name" aria-label="Your full name" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="emailCareersForm" class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                  <input name="email" type="email" class="form-control" id="emailCareersForm" placeholder="Your email address" aria-label="Your email address" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="phoneCareersForm" class="col-sm-4 col-form-label">Phone</label>
+                <div class="col-sm-8">
+                  <input name="phone-number" type="tel" class="form-control" id="phoneCareersForm" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx" required>
+                </div>
+              </div>
+
+              <hr class="mt-5 mb-3">
+
+              <div class="mb-5">
+                <h4>Links you would like to share (optional)</h4>
+              </div>
+              <div class="row mb-3">
+                <label for="linkedinURLCareersForm" class="col-sm-4 col-form-label">LinkedIn URL</label>
+                <div class="col-sm-8">
+                  <input name="linkedin_link" type="text" class="form-control" id="linkedinURLCareersForm" placeholder="www.linkedin.com/username" aria-label="www.linkedin.com/username">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="githubURLCareersForm" class="col-sm-4 col-form-label">GitHub URL</label>
+                <div class="col-sm-8">
+                  <input name="github_link" type="text" class="form-control" id="githubURLCareersForm" placeholder="www.github.com/username" aria-label="www.github.com/username">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="portfolioURLCareersForm" class="col-sm-4 col-form-label">Portfolio URL</label>
+                <div class="col-sm-8">
+                  <input name="portfolio_link" type="text" class="form-control" id="portfolioURLCareersForm" placeholder="www.mysite.com" aria-label="www.mysite.com">
+                </div>
+              </div>
+
+              <hr class="mt-5 mb-3">
+
+              <div class="mb-2">
+                <h4>Additional information (optional)</h4>
+              </div>
+
+              <div class="mb-3">
+                <label for="additionalInfoCareersForm" class="form-label visually-hidden">Additional information (optional)</label>
+                <textarea name="additional_info" class="form-control" id="additionalInfoCareersForm" placeholder="Add a cover letter or anything else you want to share." aria-label="Add a cover letter or anything else you want to share." rows="5"></textarea>
+              </div>
+              <div class="mb-3">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+
+              <div class="w-100 mb-4 alert alert-success alert-dismissible fade show align-items-center" role="alert" id="success" style="display:none">
+                <svg class="bi flex-shrink-0 me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16" aria-label="Success:">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                </svg>
+                <div>Thanks for your interest in Aerlytix. We'll review your application and be in touch!</div>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="d-grid text-center mt-7">
+                <button type="submit" class="btn btn-primary btn-lg">Submit application</button>
+                 <small class="d-block regulatory pt-4 text-center">By submitting this form you are confirming that the information you provide may be collected, processed, used and retained in accordance with our <a href="/privacy-policy/">privacy policy</a>.</small>
+                <div class="result"></div>
+              </div>
+            </form>
+      {# application form ends #}
+    </div>
+
+<script>
+document.forms.{{ job }}.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const result = document.querySelector(".result");
+  fetch("/", {
+    body: new FormData(event.target),
+    method: "POST",
+  })
+    .then(() => document.getElementById('success').style.display = "flex")
+    .catch((error) =>
+            alert(error));
+});
+</script>
+      </div>
+    </div> <!-- container -->
+</article>
+{% endblock %}
+
+

@@ -1,0 +1,24 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = summary %}
+{% set pageMainHeader = header %}
+
+
+
+{% block content %}
+{% include "partials/page-header.html" %}
+
+{% if (headerType == 'blogPost') %}
+<article>
+  <div class="container post__container"> {# So it shows on privacy and cookie policy pages #}
+    {{ content | safe }}
+  </div>
+</article>
+{% else %}
+<article>
+  {{ content | safe }}
+</article>
+{% endif %}
+
+{% endblock %}

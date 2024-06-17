@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Aerlytix News</title>
+	<subtitle>A feed of the latest news about what we are doing.</subtitle>
+	<link href="https://www.aerlytix.com/feed.xml" rel="self"/>
+	<link href="https://www.aerlytix.com/"/>
+	<updated>2024-06-17T08:53:00Z</updated>
+	<id>https://www.aerlytix.com</id>
+	<author>
+    <name>Aerlytix</name>
+    <email>info@aerlytix.com</email>
+	</author>
+	
+</feed>

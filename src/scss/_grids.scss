@@ -1,0 +1,38 @@
+.w-grid-container {
+    display: grid;
+    width: 100vw;
+    gap: 20px;
+    grid-auto-rows: 1fr;
+}
+
+.w-grid-container-1 {
+    grid-template-columns: 1fr;
+}
+
+.w-grid-container-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.w-grid-item {
+    width: 100%;
+    position: relative;
+    // height: 48vw;
+}
+
+.w-grid-item::before {
+    content: "";
+    display: block;
+    // padding-top: 56.25%;
+    /* 16:9 aspect ratio (9/16 = 0.5625 = 56.25%) */
+}
+
+.w-content {
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}

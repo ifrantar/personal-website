@@ -1,0 +1,18 @@
+{% set ctaPrefix = cta %} {# this sets the content from cta.json into this variable ctaPrefix #}
+
+{% if ctaContent %} {# this checks if the ctaContent variable is set, if it is... #}
+{% set ctaPrefix = ctaContent %} {# ... we override ctaPrefix with ctaContent #}
+{% endif %}
+
+<article class="px-4 py-5 my-5 text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold mb-5">{{ ctaPrefix.title }}</h1>
+    <div class="col-lg-6 mx-auto">
+      <!-- <p class="display-7 mb-4">{{ ctaPrefix.summary }}</p> -->
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="{{ ctaPrefix.buttonUrl }}" class="btn btn-primary btn-lg px-5 py-4 gap-3">{{ ctaPrefix.buttonText
+          }}</a>
+      </div>
+    </div>
+  </div>
+</article>

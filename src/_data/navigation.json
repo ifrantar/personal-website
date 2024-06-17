@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "text": "About Me",
+            "url": "/about-me"
+        },
+        {
+            "text": "Contact Me",
+            "url": "/contact-me"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{% set assetHash = global.random() %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% include "partials/meta-info.html" %}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/images/favicon@2x.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/images/favicon-16x16.png">
+  <link rel="mask-icon" href="{{ site.url }}/images/safari-pinned-tab.svg" color="#000000">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/images/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css?{{ assetHash }}" />
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+  {# <style>
+    {
+      % include "css/critical.css" %
+    }
+  </style>#} {# Add facility for pages to delare an array of critical styles #}
+  {% if pageCriticalStyles %} {% for item in pageCriticalStyles %}
+  <style>
+    {
+      % include item %
+    }
+  </style>
+  {% endfor %} {% endif %}
+
+  {# Add facility for pages to declare an array of stylesheet paths #}
+  {% if
+  pageStylesheets %} {% for item in pageStylesheets %}
+  <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
+  {% endfor %} {% endif %}
+
+  {% include "partials/scripts.html" %}
+
+  <script src="/js/scripts.js"></script>
+
+</head>
+
+<body class="body{{'-' + page.fileSlug }}">
+  {% include "partials/header.html" %}
+  <main id="main-content" class="pb-5">
+    {% block content %}{% endblock %}
+  </main>
+  {% include "partials/footer.html" %}
+</body>
+
+</html>

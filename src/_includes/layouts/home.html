@@ -1,0 +1,27 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+<div class="hero__home container-lg text-left ">
+  <!-- <div class="">
+    <div class="row justify-content-center"> -->
+  <div class="col-10 pt-5 pb-5">
+    <h1 class="display-1 hero-display-1 fw-bold pb-3">Product Design. <br />Interaction Design.<br />Graphic
+      Design.</h1>
+    <p class="display-6 pb-4 opacity-50">I'm a multi-disciplinary designer with over 15 years in the field.
+      I
+      help companies in the
+      process of defining and executing a
+      design strategy for their products and businesses with a focus in empathy, collaboration and iteration.</p>
+  </div>
+  <!-- </div> -->
+  <!-- <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
+  <!-- </div> -->
+</div>
+
+{% include "partials/home/case-studies.html" %}
+
+{{ content | safe }}
+
+{% endblock %}

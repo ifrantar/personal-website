@@ -1,0 +1,49 @@
+{# this works and open possibilities for multiple header types if needed #}
+
+{% if headerType == 'blogPost' %}
+<div class="header__blog-post">
+  {% elseif headerType == 'caseStudy' %}
+  <div class="header__blog-post header__blog-post--case-study">
+    {% else %}
+    <div class="header__common">
+      {% endif %}
+      {% if announcement %}
+      <div class="announcements__band">
+        <div class="container">
+          <p class="fw-bold">{{ announcement.message }}</p>
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="container-lg">
+        {% if pageHeaderTitle %}
+        <p class="text-tag">{{ pageHeaderTitle }}</p>
+        {% endif %}
+
+        <h1 class="display-1 fw-bold" data-highlight="primary">
+          {{ pageMainHeader | safe }}
+        </h1>
+        {% if pageHeaderSummary %}
+        <p class="display-6 opacity-50">
+          {{ pageHeaderSummary | safe }}
+        </p>
+        {% endif %}
+        {% if ctaButton %}
+        <a href="/cv/{{ctaLink}}" class="btn btn-primary btn-lg mt-4" download>{{ ctaButton }}</a>
+        {% endif %}
+
+        {% if articleImg %}
+        <div class="article-image mt-5 rounded-6">
+          <img class="rounded-6" src="/images/news/{{ articleImg }}" alt="{{ articleImgAlt }}" />
+        </div>
+        {% elseif caseStudyImg %}
+        <div class="article-image mt-5 rounded-6">
+          <img class="rounded-6" src="/images/case-studies/{{caseStudy}}/{{ caseStudyImg }}"
+            alt="{{ caseStudyImgAlt }}" />
+        </div>
+        {% endif %}
+
+
+      </div>
+
+    </div>

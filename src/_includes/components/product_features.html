@@ -1,0 +1,44 @@
+{% for feature in features %}
+<article class="px-5 py-5 mb-5">
+    <div class="container">
+        <div class="row gx-lg-5" data-cues="slideInUp">
+            <div class="col-md-5">
+                <h2 class="fw-bold mb-5">{{ feature.title }}</h2>
+                {% if feature.description %}
+                {{ feature.description }}
+                {% else %}{{ feature.description_html | safe }}{% endif %}
+            </div>
+            <div class="col-md-7">
+                {% if feature.media.type == 'image' %}<img class="card image__feature" src="{{ feature.media.content }}" alt="{{ feature.title }}" />
+                {% elif feature.media.type == 'video' %}<script src="https://fast.wistia.com/embed/medias/{{feature.media.content}}.jsonp" async></script>
+                <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                <div class="card image__feature wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                        <div class="wistia_embed wistia_async_{{feature.media.content}} seo=true videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div>
+                    </div>
+                </div>{% endif %}
+            </div>
+        </div>
+    </div>
+</article>
+{% if feature.sub_features %}
+<article class="px-5 py-5 mb-5">
+    <div class="container">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-4" data-cues="slideInUp">
+            {% for sub_feature in feature.sub_features %}<div class="feature col">
+                <div class="feature-icon">
+                    <svg class="icon__check--success" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                        fill="inherit" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                        </path>
+                    </svg>
+                </div>
+                <h4>{{ sub_feature.title }}</h4>
+                <p>{{ sub_feature.description }}</p>
+            </div>{% endfor %}
+        </div>
+    </div>
+</article>
+{% endif %}
+{% endfor %}

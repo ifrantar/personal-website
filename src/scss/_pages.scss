@@ -1,0 +1,89 @@
+// .body {
+//     &-about-me {
+//         background: url(../images/profile-picture.jpg) 0 0 no-repeat;
+//     }
+// }
+
+// Case studies card for the home page
+.case-studies {
+    .lead {
+        &::before {
+            content: "";
+            background: black;
+            width: 22px;
+            height: 22px;
+            display: inline-block;
+            margin-right: 12px;
+            margin-left: 0;
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    &__card {
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+
+        &--link {
+            position: absolute;
+            display: flex;
+            top: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: white;
+            border-radius: 100px;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+
+}
+
+// Post content: These are styles for the posts or case studpages to separate and style sections, etc.
+
+.post {
+    &__content {}
+
+    &__section {
+        margin-bottom: 3.5rem;
+    }
+
+    &__image-caption {
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+// Contact me page
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    padding-left: 0;
+
+    li {
+        padding: 10px;
+        flex-grow: 1;
+        text-align: center;
+        border: 2px solid black;
+        height: 5rem;
+        align-content: center;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+}

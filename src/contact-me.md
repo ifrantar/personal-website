@@ -1,13 +1,10 @@
 ---
-# title: 'Talk to Sales'
 header: "Reach Out and Say Hello 📭"
 summary: "Got a project in mind or just want to say hi? I'm always excited to connect and collaborate. Drop me a message and let's bring your ideas to life."
 layout: 'layouts/page.html'
-#headerType: 'blogPost'
 ---
 
 <article>
-
 <div class="container mb-5">
   <div class="row gx-lg-5">
     <div class="col-md-4">
@@ -30,7 +27,7 @@ layout: 'layouts/page.html'
               </svg>
             </button>
        </div>
-       <form class="row g-4" data-netlify="true" id="contactMe">
+       <form class="row g-4" id="contactMe" netlify>
             <div class="col-md-12">
               <label for="inputName">Name</label>
               <input name="name" type="text" class="form-control form-control-lg" id="inputName" required>
@@ -99,7 +96,7 @@ layout: 'layouts/page.html'
   </div>
 
 <script>
-          let formElem = document.getElementById('requestDemo');
+          let formElem = document.getElementById('contactMe');
           if (formElem) {
             const handleSubmit = (e) => {
               e.preventDefault()

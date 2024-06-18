@@ -18,7 +18,7 @@ layout: 'layouts/page.html'
               <path
                 d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
             </svg>
-            <div>Your request has been sent successfully. We'll be in touch very soon!</div>
+            <div>Thanks for reaching out. I'll get back to you soon!</div>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x"
                 viewBox="0 0 16 16">
@@ -38,7 +38,7 @@ layout: 'layouts/page.html'
             </div>
             <div class="col-md-12">
               <label for="textareaTellusmore">Tell me how can I help</label>
-              <textarea name="address" class="form-control form-control-lg" id="textareaTellusmore" rows="5" required></textarea>
+              <textarea name="message" class="form-control form-control-lg" id="textareaTellusmore" rows="5" required></textarea>
             </div>
             <div class="col-md-12">
               <div data-netlify-recaptcha="true"></div>

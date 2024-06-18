@@ -1,4 +1,3 @@
-# aerlytix-website-test
-Development testing website
+# Ivan Frantar Personal Website
 
-This is the future Aerlytix and rebranded website to go on 2022
+This is the personal website of Ivan Frantar.

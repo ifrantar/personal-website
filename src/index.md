@@ -1,5 +1,5 @@
 ---
-title: 'Aerlytix'
-metaDesc: 'An analytics and technology solutions company that offers a wide range of services to the aviation finance industry.'
+title: 'Ivan Frantar'
+metaDesc: 'This is the portfolio and personal website of Ivan Frantar, a product designer based in Ireland.'
 layout: 'layouts/home.html'
 ---

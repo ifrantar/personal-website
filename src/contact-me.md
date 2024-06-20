@@ -38,7 +38,7 @@ layout: 'layouts/page.html'
             </div>
             <div class="col-md-12">
               <label for="textareaTellusmore">Tell me how can I help</label>
-              <textarea name="message" class="form-control form-control-lg" id="textareaTellusmore" rows="5" required></textarea>
+              <textarea name="message " class="form-control form-control-lg" id="textareaTellusmore" rows="5" required></textarea>
             </div>
             <div class="col-md-12">
               <div data-netlify-recaptcha="true"></div>

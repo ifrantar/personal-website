@@ -46,14 +46,14 @@ layout: "layouts/page.html"
       <section class="mb-5">
         <div class="cv__header">
           <h4>Senior Product Designer @ CurrencyFair </h4>
-          <p>07/2010 — 07/2013</p>
+          <p>07/2013 — 12/2016</p>
         </div>
         <p>At CurrencyFair, I specialized in UI/UX design and frontend development, ensuring responsive design across web and mobile platforms. I created prototypes and wireframes, established style guides, and optimized user behavior through various analytical tools. I also conducted usability workshops to enhance user engagement while mentoring and onboarding designers on to the company.</p>
       </section>
       <section class="mb-5">
         <div class="cv__header">
           <h4>Lead UX Designer Mobile @ Hostelworld</h4>
-          <p>07/2010 — 12/2013</p>
+          <p>07/2010 — 06/2013</p>
         </div>
         <p>In my role at Hostelworld, I led the UI/UX design for mobile sites and apps for both Hostelworld and Hostels.com. I worked closely with product heads, project managers, and developers to create intuitive and engaging mobile experiences. I organized design critiques and sprints to validate ideas and improve designs, while also mentoring designers on system settings, Git usage, and cross-platform compatibility.</p>
       </section>

@@ -8,18 +8,20 @@ layout: "layouts/page.html"
 
 <article class="py-2 px-2">
 
-<!-- <div class="container">
+<div class="container mb-5">
   <div class="row gx-lg-5">
     <div class="col-md-4">
       <h2 class="fw-bold text-uppercase">About Me</h2>
     </div>
     <div class="col-md-7">
       <section class="mb-5">
-      <p class="display-6 fw-normal">My name is Ivan and I'm a multi-disciplinary designer based in Dublin, Ireland.</p>
+      <p>I approach my work pragmatically blending creative ideas with practical steps to achieve tangible outcomes. I believe that getting products earlier on customers hands is the best way to learn and iterate on improvements as insights come to light.</p>
+<p>One of my core tenets is posing thought-provoking questions and championing streamlined solutions throughout the design journey. By examining scenarios, drawing inspiration from other sectors, and analyzing hypothetical situations, I help my team and myself gain comprehensive insights into a diverse set of challenges. Prioritizing minimal viable solutions allows us to strike a balance between future design aspirations and current business requirements.</p>
+<p>Furthermore, I support my colleagues by linking concepts and encouraging them to explore different perspectives. I place great importance on company values and use them as a compass for decision-making.</p>
       </section>
     </div>
   </div>
-</div> -->
+</div>
 
 <div class="container mb-5">
   <div class="row gx-lg-5">

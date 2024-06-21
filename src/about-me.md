@@ -74,13 +74,14 @@ layout: "layouts/page.html"
         <li>End-to-end Product Design</li>
         <li>User Research Practices</li>
         <li>Ideation and Workshop</li>
+        <li>Mentoring</li>
       </ul>
       <ul>
         <li>Frontend Development</li>
         <li>UI Design</li>
         <li>Prototyping</li>
         <li>Design Tools (Figma, Miro, Affinity + others)</li>
-        <li>Ideation and Workshop</li>
+        <li>Content Strategy</li>
       </ul>
       </section>
     </div>

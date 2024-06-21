@@ -12720,14 +12720,14 @@ fieldset:disabled .btn {
   font-weight: 200 900;
   font-stretch: 75% 125%;
   font-style: normal;
-  src: url(/fonts/InterVariable.woff2) format("woff2");
+  src: url(/fonts/Satoshi-Variable.woff2) format("woff2");
 }
 @font-face {
   font-family: "Inter";
   font-weight: 200 900;
   font-stretch: 75% 125%;
   font-style: italic;
-  src: url(/fonts/InterVariable-Italic.woff2) format("woff2");
+  src: url(/fonts/Satoshi-VariableItalic.woff2) format("woff2");
 }
 body {
   font-size: 1.25rem;
@@ -12779,7 +12779,7 @@ li {
   }
 }
 .fw-bold {
-  font-weight: 800 !important;
+  font-weight: 900 !important;
 }
 
 .text-selection {

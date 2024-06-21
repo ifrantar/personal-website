@@ -78,7 +78,7 @@ layout: "layouts/page.html"
       </ul>
       <ul>
         <li>Frontend Development</li>
-        <li>UI Design</li>
+        <li>UX & UI Design</li>
         <li>Prototyping</li>
         <li>Design Tools (Figma, Miro, Affinity + others)</li>
         <li>Content Strategy</li>

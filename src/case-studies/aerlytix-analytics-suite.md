@@ -228,7 +228,7 @@ To ensure the wireframes were robust and aligned with user expectations, I condu
   <img src="/images/case-studies/aerlytix/app-design-7.jpg" alt="App structure of the app">
 </div>
 
-<div class="container-lg mb-4">
+<div class="container-lg mb-5">
   <img src="/images/case-studies/aerlytix/app-design-8.jpg" alt="App structure of the app">
 </div>
 

@@ -53,7 +53,7 @@ layout: "layouts/page.html"
       <section class="mb-5">
         <div class="cv__header">
           <h4>Lead UX Designer Mobile @ Hostelworld</h4>
-          <p>02/2020 — Present</p>
+          <p>07/2010 — 12/2013</p>
         </div>
         <p>In my role at Hostelworld, I led the UI/UX design for mobile sites and apps for both Hostelworld and Hostels.com. I worked closely with product heads, project managers, and developers to create intuitive and engaging mobile experiences. I organized design critiques and sprints to validate ideas and improve designs, while also mentoring designers on system settings, Git usage, and cross-platform compatibility.</p>
       </section>

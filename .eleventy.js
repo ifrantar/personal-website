@@ -39,6 +39,26 @@ module.exports = eleventyConfig => {
         return [...collection.getFilteredByGlob('./src/notes/*.md')].reverse();
     });
 
+    // Generate folders based on note titles - I'LL WORK AROUND THIS LATER.
+    // eleventyConfig.on('afterBuild', () => {
+    //     const notes = eleventyConfig.collections.notes;
+
+    //     if (Array.isArray(notes)) {
+    //     notes.forEach(note => {
+    //         const noteTitle = post.data.title;
+    //         const folderName = noteTitle.replace(/\s+/g, '-').toLowerCase(); // Replace spaces with dashes and convert to lowercase
+    //         const folderPath = path.join('/src/notes', folderName);
+
+    //         if (!fs.existsSync(folderPath)) {
+    //         fs.mkdirSync(folderPath, { recursive: true }); // Ensure parent directories are created if they don't exist
+    //         console.log(`Created folder: ${folderPath}`);
+    //         }
+    //     });
+    //     } else {
+    //     console.error("Notes collection is not an array");
+    //     }
+    // });
+
     // Returns a list of people ordered by filename
     // eleventyConfig.addCollection('people', collection => {
     //     return collection.getFilteredByGlob('./src/team/*.md').sort((a, b) => {

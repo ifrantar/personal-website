@@ -27,6 +27,6 @@ I don’t know exactly where this journey will lead, but that’s part of the ex
 
 If any of these topics are of interest to anybody, or if anyone enjoy reading about random musings, I invite you to follow along. Feel free to get in touch with any feedback or comments you may have. Anyone's insights will be invaluable as I kick start this new journey.
 
-As for this website, under the hood I'm using [Netlify](https://netlify.com) and I have decided to use [11ty.dev](https://11ty.dev) as the scaffolding to make it work. Both of this platforms are amazing and easy to learn (and I'm still learning the ins and outs). I'll be changing and updating the website design along the journey; the temptation of having this space to do whatever I want is too much.
+As for this website, under the hood I'm using [Netlify](https://netlify.com) and I have decided to use [11ty.dev](https://11ty.dev) as the scaffolding to make it work. Both of these platforms are amazing and easy to learn (and I'm still learning the ins and outs). I'll be changing and updating the website design along the journey; the temptation of having this space to do whatever I want is too much.
 
 Thanks for joining me. Stay tuned for more updates, and I look forward to sharing my thoughts and experiences with you all.

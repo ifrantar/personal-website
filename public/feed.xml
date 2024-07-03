@@ -4,7 +4,7 @@
   <subtitle>A feed of the latest notes about what we I&#39;m doing or feeling writing about.</subtitle>
   <link href="https://www.ivanfrantar.com/feed.xml" rel="self" />
   <link href="https://www.ivanfrantar.com/" />
-  <updated>2023-11-27T00:00:00Z</updated>
+  <updated>2024-07-03T00:00:00Z</updated>
   <id>https://www.ivanfrantar.com</id>
   <author>
     <name>Ivan Frantar</name>
@@ -13,114 +13,33 @@
   
   
   <entry>
-    <title>Aerlytix partners with Stratos to Transform Aircraft ABS Reporting</title>
-    <link href="https://www.ivanfrantar.com/notes/aerlytix-partners-with-stratos-to-transform-aircraft-abs-reporting/" />
-    <updated>2023-11-27T00:00:00Z</updated>
-    <id>https://www.ivanfrantar.com/notes/aerlytix-partners-with-stratos-to-transform-aircraft-abs-reporting/</id>
+    <title>First post after site redesign</title>
+    <link href="https://www.ivanfrantar.com/notes/first-post-after-site-redesign/" />
+    <updated>2024-07-03T00:00:00Z</updated>
+    <id>https://www.ivanfrantar.com/notes/first-post-after-site-redesign/</id>
     <content type="html">
       <![CDATA[
-        <blockquote class="callout callout__info" style="margin-bottom:28px">
-<p> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="margin-top:-3px">
-<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 16V12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 8H12.01" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> <strong>NOTE:</strong> Article originally published in AirFinance Journal: <a href="https://www.airfinancejournal.com/articles/3592323/exclusive-stratos-launches-abs-portal">Exclusive: Stratos Launches ABS Portal</a></p>
-<svg class="airfinance-logo" viewBox="0 0 769 259">
-<style type="text/css">
-	.st0{fill:#26282A;}
-	.st1{fill:#0076A9;}
-	.st2{fill:#0698D6;}
-</style>
-<g>
-	<g>
-		<g>
-			<path class="st0" d="M303.76,118.55L298,104.22h-30.85l-5.77,14.33h-5.77l23.86-58.29h6.2l23.86,58.29H303.76z M282.53,65.59
-				l-13.72,34.08h27.53L282.53,65.59z"></path>
-			<path class="st0" d="M318.1,118.55V60.26h4.98v58.29H318.1z"></path>
-			<path class="st0" d="M371.76,118.55l-16.34-24.12h-12.85v24.12h-4.98V60.26h21.76c10.05,0,17.74,6.38,17.74,17.04
-				c0,10.57-7.52,16.43-16.17,16.78l16.87,24.47H371.76z M371.85,77.3c0-7.34-5.24-12.5-12.93-12.5h-16.34v25.08h16.34
-				C366.6,89.89,371.85,84.65,371.85,77.3z"></path>
-			<path class="st0" d="M389.51,118.55V60.26h36.97v4.54h-31.99v21.59h31.38v4.54h-31.38v27.61H389.51z"></path>
-			<path class="st0" d="M436.87,118.55V60.26h4.98v58.29H436.87z"></path>
-			<path class="st0" d="M498.05,118.55l-36.7-50.08v50.08h-4.98V60.26h5.07l36.53,49.38V60.26h4.98v58.29H498.05z"></path>
-			<path class="st0" d="M559.66,118.55l-5.77-14.33h-30.85l-5.77,14.33h-5.77l23.86-58.29h6.2l23.86,58.29H559.66z M538.43,65.59
-				l-13.72,34.08h27.53L538.43,65.59z"></path>
-			<path class="st0" d="M615.69,118.55l-36.7-50.08v50.08H574V60.26h5.07l36.53,49.38V60.26h4.98v58.29H615.69z"></path>
-			<path class="st0" d="M632.91,89.45c0-17.92,13.02-30.15,29.54-30.15c9.26,0,16.26,4.11,21.24,10.31l-4.19,2.71
-				c-3.67-5.07-10.05-8.48-17.04-8.48c-13.72,0-24.29,10.4-24.29,25.61c0,15.03,10.58,25.61,24.29,25.61
-				c6.99,0,13.37-3.41,17.04-8.48l4.19,2.62c-5.16,6.38-11.97,10.4-21.24,10.4C645.93,119.6,632.91,107.37,632.91,89.45z"></path>
-			<path class="st0" d="M693.82,118.55V60.26h36.97v4.54H698.8v21.59h31.38v4.54H698.8v23.07h31.99v4.54H693.82z"></path>
-			<path class="st0" d="M255.7,191.67l2.36-2.1c2.71,3.84,6.47,7.08,12.41,7.08c8.65,0,13.98-6.03,13.98-14.59v-42.12h2.8v42.12
-				c0,11.62-7.78,17.21-16.78,17.21C264.09,199.27,259.46,196.91,255.7,191.67z"></path>
-			<path class="st0" d="M300.62,169.12c0-16.87,10.75-30.15,27.7-30.15c16.87,0,27.7,13.28,27.7,30.15
-				c0,16.87-10.84,30.15-27.7,30.15C311.37,199.27,300.62,185.99,300.62,169.12z M352.97,169.12c0-15.99-9.7-27.53-24.64-27.53
-				c-15.12,0-24.64,11.53-24.64,27.53c0,15.82,9.52,27.53,24.64,27.53C343.27,196.65,352.97,184.94,352.97,169.12z"></path>
-			<path class="st0" d="M369.4,176.11v-36.18h2.8v36.18c0,12.93,6.64,20.54,18.88,20.54s18.88-7.6,18.88-20.54v-36.18h2.8v36.18
-				c0,14.42-7.52,23.16-21.67,23.16C376.92,199.27,369.4,190.44,369.4,176.11z"></path>
-			<path class="st0" d="M462.66,198.22l-17.74-25.17h-13.98v25.17h-2.8v-58.29h20.1c9.44,0,17.22,5.86,17.22,16.52
-				c0,10.66-7.78,16.6-17.22,16.6l18,25.17H462.66z M462.39,156.45c0-8.04-5.59-13.9-14.16-13.9h-17.31v27.88h17.31
-				C456.8,170.43,462.39,164.49,462.39,156.45z"></path>
-			<path class="st0" d="M520.86,198.22l-39.33-53.75v53.75h-2.8v-58.29h2.8l39.33,53.22v-53.22h2.8v58.29H520.86z"></path>
-			<path class="st0" d="M581.86,198.22l-6.46-15.64h-32.51l-6.47,15.64h-3.23l24.29-58.29h3.32l24.29,58.29H581.86z M559.14,143.16
-				l-15.21,36.79h30.41L559.14,143.16z"></path>
-			<path class="st0" d="M594.63,198.22v-58.29h2.8v55.67h29.28v2.62H594.63z"></path>
-		</g>
-		<g>
-			<polygon class="st1" points="16.44,240.09 70.78,205.71 121.56,97.95 121.56,18.48 			"></polygon>
-			<polygon class="st2" points="226.67,240.09 172.33,205.71 121.56,97.95 121.56,18.48 			"></polygon>
-		</g>
-	</g>
-</g>
-</svg>
-</blockquote>
-<p><strong>Dublin, Ireland – November 27, 2023:</strong> Asset manager and servicer Stratos has launched an innovative reporting system for its asset-backed securitization (ABS) Jol-Air 2019.</p>
-<p>The enhanced reporting portal features information per aircraft MSN on lease rate ranges, maintenance status, forward maintenance projections, and estimated end-of-lease compensation payments for investors.</p>
-<p>In an interview with Airfinance Journal, Chief Executive Officer Gary Fitzgerald says the product was launched on 14 November with technology solutions company Aerlytix.</p>
-<p>Aerlytix CEO Alan Doyle expresses his satisfaction with the collaboration with Stratos in developing an ABS investor portal for the JOL Air-2019 ABS.</p>
-<blockquote>
-<p>&quot;We are delighted to partner with Stratos to enhance the analysis available for ABS investors. This product, designed to extend across all ABSs, will drive transparency and productivity in the industry. Overall, it enhances our expanding suite of offerings to lessors, banks, and investors.&quot;</p>
-<p><cite>Alan Doyle - Aerlytix CEO</cite></p>
-</blockquote>
-<p>Fitzgerald says the reporting system was prompted by investor inquiries trying to understand value in the ABS market over recent years.
-&quot;Before Covid, details in an ABS monthly noteholder report were not too much of an issue for noteholders or even for secondary trading,&quot; he comments.</p>
-<p>&quot;But after some heavy lease restructurings related to Covid, investors have struggled to value ABS holdings and have recently inquired about breakdowns per aircraft, jurisdictions, maintenance status, etc. Having conversations with them, we realized that they have been missing crucial information on all aircraft ABS transactions.&quot;</p>
-<p>He says that in ABS deals noteholders receive monthly reports which are without much substance.</p>
-<p>&quot;For instance, noteholders get the full total amount of income but no breakdown per aircraft, no accurate maintenance status, and no end-of-lease details.</p>
-<p>He adds: &quot;Limited reporting is a legacy issue from the early 1990s when securitization transactions in the aircraft finance market started. This became the template for aircraft ABS issuances and as a result, they have become the most opaque structured asset instruments – unlike car loans, containers, rail car industries where information on individual loans is available for most transactions.&quot;</p>
-<p>He believes that this reporting system should become normal reporting for ABS structures.</p>
-<p>&quot;We have had hugely positive feedback from the biggest noteholders in our securitizations. Investors can access the platform at any time rather than waiting for a monthly noteholder report; they can finally establish a valuation from the bottom up.&quot;</p>
-<p>&quot;We have turned ourselves into a digital servicer by allowing our clients to access their aircraft and see the details of their investments.&quot;</p>
-<p>Fitzgerald says Stratos is differentiating itself from other platforms, especially the large asset managers and lessors, which may have hundreds of aircraft in their portfolios and ABS structures.</p>
-<p>&quot;For us, using the system is about opening access to our investors. Some lessors use the system for their own pricing models, but if you are a large lessor with a portion of ABS exposure, you may not want to share information to this level for just a small portion of your overall portfolio.&quot;</p>
-<p>Fitzgerald says the ABS sector has to become more transparent. &quot;In the capital markets, the primary issuances are bought by say 20-30 institutions that may invest $5 million up to $100 million worth of notes. But the secondary trading is very small and relatively inactive.&quot;</p>
-<p>He adds that occasionally some opportunistic buyers may jump into the market and have access to some heavily discounted notes, but they are trading on bond economics and not kept up to date on exactly how each portfolio has developed.</p>
-<p>&quot;This product helps every institution to better understand the value of its underlying asset investment.&quot;</p>
-<blockquote>
-<p>&quot;This product helps every institution to better understand the value of its underlying asset investment.&quot;</p>
-<p><cite>Gary Fitzgerald - Stratos CEO</cite></p>
-</blockquote>
-<p>Fitzgerald believes that the wider use among the asset managers should ‘massively’ increase liquidity in secondary ABS market trading.</p>
-<p>&quot;Removing opacity in this segment can only improve attractiveness for bonds,&quot; he adds.</p>
-<p>For him, banks have been slowly pulling away from the aircraft finance sector because of the cost of capital allocation and increasingly punitive regulation affecting the banking sector.</p>
-<p>&quot;The only segment large enough to replace such a huge volume of bank lending capacity over time is the capital markets where you have properly rated, properly reported securitized structures which are re-traded in a liquid secondary market so they can be underwritten by pension funds and insurers. Up to now, there has been relatively little trading in the secondary market, and we need to change this momentum.&quot;</p>
-
-      ]]>
-    </content>
-  </entry>
-  
-  
-  <entry>
-    <title>The Aerlytix team moves into new headquarters in the centre of Dublin</title>
-    <link href="https://www.ivanfrantar.com/notes/the-aerlytix-team-moves-into-new-headquarters-in-the-centre-of-dublin/" />
-    <updated>2023-10-22T00:00:00Z</updated>
-    <id>https://www.ivanfrantar.com/notes/the-aerlytix-team-moves-into-new-headquarters-in-the-centre-of-dublin/</id>
-    <content type="html">
-      <![CDATA[
-        <p><strong>Dublin, Ireland – October 2023:</strong> Aerlytix, the aviation industry technology solutions company, has opened its new office at 1862 Barrow, 1A Barrow Street, Dublin, D04 E9R0, Ireland.</p>
-<p>As one of the fastest growing aviation technology companies in Ireland, Aerlytix now has room to continue its rapid growth trajectory. After a long time working from home, the Aerlytix team are delighted to be working under the same roof as the company continues to expand.</p>
-<p>Aerlytix is retaining its hybrid office-remote working policy but delighted to have a central location to meet with colleagues, clients and industry executives in the busy months ahead.</p>
-<p>Located at 1862 Barrow, 1A Barrow Street, Dublin, D04 E9R0, Ireland, the Aerlytix team are in the centre of the aviation finance and leasing community in the city and are looking forward to continuing to reconnect with the industry, at short notice, from a more central base.</p>
-<p>“Although we remain fans of the hybrid remote working model, it is very exciting to have the team all under one roof,” says Alan Doyle, Chief Executive Officer, Aerlytix. “With a busy year ahead, with more announcements planned this year, it is a great time to work at Aerlytix.”</p>
+        <p>Hello everyone,</p>
+<p>I’m excited to announce the first redesign of my website in a while! This update marks a fresh start not just for the site’s look and feel, but also for how I engage a number of topics or interests I might like to write about.</p>
+<p>In the past, I haven’t been very active in writing, often finding myself sharing snippets, reposts, and replies on platforms like X.com and other social networks. However, I’ve decided to be more proactive from the realm of my own website. Moving forward, I’m committing to writing more thoughtful and periodic posts here on my blog. This space will serve as a journal where I can explore and share the things I’m passionate about.</p>
+<h3>A few interests I'm into:</h3>
+<ol>
+<li>
+<p><strong>Design and Product Design</strong>: Obviously, as a designer, I’m constantly fascinated by the evolving landscape of design. I’ll be sharing insights, adding more case studies, and my thoughts on the everything related design and product design and development.</p>
+</li>
+<li>
+<p><strong>Fitness</strong>: I've been doing resistance training for over a year (I know is not that impressive so far), and has become an important aspect of my life. Being a father of two girls, I am committed to staying as fit as possible, not only to be there for them as they grow, but also to ensure that anyone who dares to mess with them thinks twice 😉. So, Expect posts about some workouts, including some PR videos deadlifting, bench pressing, and squats or anything related.</p>
+</li>
+<li>
+<p><strong>Nutrition</strong>: Alongside fitness, I have learned (or rather I'm learning) how important nutrition is. This area of what I might post could be boring for some. However it can be exciting if you like steaks and eggs as much as I do which is 80% of my diet. I might post  thousand photos of steaks from slightly different angles. You've been warned (of deliciousness)!</p>
+</li>
+<li>
+<p><strong>Bitcoin and the Concept of Money</strong>: Recently, I’ve started learning about Bitcoin and its broader implications on the concept of money. I'm fascinated by its nature as a protocol operating on a decentralized network using blockchain technology detached from governments, central banks or any country's economy or policy decisions. I look forward to exploring how Bitcoin is reshaping our understanding of money, value, and financial systems.</p>
+</li>
+</ol>
+<p>I don’t know exactly where this journey will lead, but that’s part of the excitement. This blog will be a space for me to explore these interests and any new ones that come along. Think of it as a collection of my thoughts and ideas – what I like to call “thought farts.” Additionally, I'm sure I'll be changing and updating the website design along the journey; the temptation of having this space to do whatever I want is too much.</p>
+<p>If any of these topics are of interest to anybody, or if anyone enjoy reading about random musings, I invite you to follow along. Feel free to get in touch with any feedback or comments you may have. Anyone's insights will be invaluable as I kick start this new journey.</p>
+<p>Thanks for joining me. Stay tuned for more updates, and I look forward to sharing my thoughts and experiences with you all.</p>
 
       ]]>
     </content>

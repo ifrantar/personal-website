@@ -1,5 +1,4 @@
 ---
-title: 'Tag Archive'
 layout: 'layouts/feed.html'
 pagination:
   data: collections

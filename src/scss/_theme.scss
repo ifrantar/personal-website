@@ -27,27 +27,6 @@ hr {
             border-left: 4px solid black;
             margin-left: -2rem;
 
-            &.callout {
-                border-radius: 4px;
-                border: 0;
-                font-weight: var(--bs-body-font-size);
-
-                &__info {
-                    background: rgb(240, 240, 240);
-
-                    p {
-                        font-size: var(--bs-body-font-size);
-                        font-weight: normal;
-                    }
-
-                    .airfinance-logo {
-                        margin: 0 auto;
-                        display: block;
-                        max-width: 500px;
-                    }
-                }
-            }
-
             p {
                 font-size: 1.58rem;
                 font-style: italic;
@@ -62,36 +41,38 @@ hr {
             }
         }
     }
+
+    &__list {
+        &--title {
+            a {
+                text-decoration: none;
+                color: var(--bs-heading-color)
+            }
+        }
+
+        &--tags {
+            color: var(--bs-heading-color);
+            border: 1px solid black;
+            text-decoration: none;
+            padding: 4px 8px;
+            font-size: smaller;
+        }
+    }
 }
 
-.posts-list {
-    h4 a {
-        color: black;
-        font-weight: bold;
-    }
-
-    .card {
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-
-    .card-footer {
-        border: 0;
-        background-color: transparent;
-        padding-bottom: 1rem;
-    }
+.tags-list li a {
+    color: var(--bs-heading-color);
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 4px 8px;
+    font-size: smaller;
 }
+
 
 .article-image {
     img {
         width: 100%;
         object-fit: contain;
-    }
-}
-
-.tags-list {
-    a {
-        color: white;
     }
 }
 
@@ -106,60 +87,6 @@ hr {
     p {
         font-size: small;
     }
-}
-
-// Quote slider
-
-.quotes {
-
-    &__primary {
-
-        padding: 0 3rem;
-        margin: auto;
-
-        .card {
-            border-top: 4px solid black;
-            border-bottom: 4px solid black;
-            padding-left: 4rem;
-            padding-right: 4rem;
-            position: relative;
-        }
-
-        &--left {
-            position: absolute;
-            top: -5rem;
-            left: -2rem;
-            background: white;
-            padding: 1rem;
-        }
-
-        &--right {
-            position: absolute;
-            bottom: -5rem;
-            right: -2rem;
-            background: white;
-            padding: 1rem;
-        }
-    }
-}
-
-.carousel-indicators {
-    margin-bottom: -3rem;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    width: 4%;
-}
-
-.posts-list {
-    a {
-        text-decoration: none;
-    }
-}
-
-.accordion-button:not(.collapsed) {
-    background: none;
 }
 
 .display-7 {
@@ -222,7 +149,7 @@ hr {
 }
 
 .brand-color {
-    color: var(--blue);
+    color: var(--black);
 }
 
 
@@ -244,10 +171,9 @@ textarea {
     color: blue;
 }
 
-
-@media (max-width:992px) {
-    .footer__products {
-        width: 100%;
+footer {
+    p {
+        font-size: smaller;
     }
 }
 

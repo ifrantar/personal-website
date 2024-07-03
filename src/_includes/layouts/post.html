@@ -14,7 +14,7 @@
 <ul class="tags-list" aria-describedby="tags-desc">
   {% for tag in tags %}
   <li>
-    <a href="/tag/{{ tag | slug }}/">#{{ tag | title | replace(' ', '') }}</a>
+    <a href="/tag/{{ tag | slug }}/">{{ tag | title | replace(' ', '') }}</a>
   </li>
   {% endfor %}
 </ul>
@@ -30,10 +30,10 @@
     {{ content | safe }}
 
   </div>
-  {% if recommendedPosts %}
+  {% if recommendedPosts and recommendedPosts | length > 0 %}
   <footer class="recommended-posts bg-light pt-5">
     {% set postListItems = recommendedPosts %}
-    {% set postListHeadline = 'More Ivan Notes' %}
+    {% set postListHeadline = 'More Notes' %}
     {% include "partials/post-list.html" %}
   </footer>
   {% endif %}

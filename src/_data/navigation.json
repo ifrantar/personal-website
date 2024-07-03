@@ -1,6 +1,10 @@
 {
     "items": [
         {
+            "text": "Notes",
+            "url": "/notes"
+        },
+        {
             "text": "About Me",
             "url": "/about-me"
         },

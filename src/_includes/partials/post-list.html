@@ -5,48 +5,27 @@
       {{ postListHeadline }}
     </h1>
     {% endif %}
-    {# <div>
-      <ol class="">
-        {% for item in postListItems %}
-        <li class="">
-          <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a> <span>{{ item.date | dateFilter
-            }}</span>
-          <p>{{ item.data.intro }}</p>
-        </li>
+  </div>
+</div>
+
+<div class="container post__list">
+
+  {% for item in postListItems %}
+  <div class="row gx-lg-5">
+    <div class="col-md-4">
+      <p class="fw-bold text-uppercase opacity-50">{{ item.date | dateFilter }}</p>
+    </div>
+    <div class="col-md-7">
+      <section class="mb-5">
+        <h1 class="post__list--title"><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h1>
+        <p class="card-text">{{ item.data.intro }}</p>
+        {% if item.data.tags %}
+        {% for tag in item.data.tags %}
+        <a class="post__list--tags" href="/tag/{{ tag | slug }}/">{{ tag | title | replace(' ', '') }}</a>
         {% endfor %}
-      </ol>
+        {% endif %}
+      </section>
     </div>
-  </div> #}
-</div>
-
-<div class="album py-5">
-  {# <div class="container"> #}
-
-    <div class="posts-list row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-
-      {% for item in postListItems %}
-      <div class="col">
-        <div class="card rounded-6 h-100">
-          <img class="card-image" src="/images/notes/{{ item.data.articleImg }}" alt="" role="img" />
-          <div class="card-body">
-            <h4><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h4>
-            <p class="card-text">{{ item.data.intro }}</p>
-          </div>
-          <div class="card-footer">
-            <div class="d-flex justify-content-between align-items-center">
-              <div>
-                <a href="{{ item.url }}" class="btn btn-sm btn-outline-secondary">Read more</a>
-              </div>
-              <small>{{ item.date | dateFilter }}</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-
-
-
-    </div>
-    {#
-  </div> #}
-</div>
+  </div>
+  {% endfor %}
+</div><!-- end .container -->

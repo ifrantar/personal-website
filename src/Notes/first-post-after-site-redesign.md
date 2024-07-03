@@ -9,13 +9,15 @@ headerType: 'blogPost'
 
 Hello everyone,
 
-I’m excited to announce the first redesign of my website in a while! This update marks a fresh start not just for the site’s look and feel, but also for how I engage a number of topics or interests I might like to write about.
+I’m excited to have launched the next redesign of my website in a while! This update marks a fresh start not just for the site’s look and feel, but also for how I engage a number of topics or interests I might like to write about.
 
-In the past, I haven’t been very active in writing, often finding myself sharing snippets, reposts, and replies on platforms like X.com and other social networks. However, I’ve decided to be more proactive from the realm of my own website. Moving forward, I’m committing to writing more thoughtful and periodic posts here on my blog. This space will serve as a journal where I can explore and share the things I’m passionate about.
+In the past, I haven’t been very active in writing, often finding myself sharing snippets, reposts, and replies on platforms like X.com (by the way, my user handle is [@ifrantar](https://x.com/ifrantar)) and other social networks. However, I’ve decided to be more proactive from the realm of my own website. Moving forward, I’m committing to writing more thoughtful and periodic posts here on my blog. This space will serve as a journal where I can explore and share the things I’m passionate about.
 
 ### A few interests I'm into:
 
 **Design and Product Design**: Obviously, as a designer, I’m constantly fascinated by the evolving landscape of design. I’ll be sharing insights, adding more case studies, and my thoughts on the everything related design and product design and development.
+
+**AI (who isn't interested these days?)**: Artificial Intelligence, has become an invaluable tool on a daily basis, assisting me in various aspects from coding and writing to creating weight lifting programs. It provides precise information on any topic I need to explore, reducing my reliance on traditional search engines like Google. While for topics such as soft skills, politics and other more opinionated areas I'm still not so confident about it (or rather threat more lightly), when it comes to logic and reasoning, it's an amazing tool. I'm super fascinated by it.
 
 **Fitness**: I've been doing resistance training for over a year (I know is not that impressive so far), and has become an important aspect of my life. Being a father of two girls, I am committed to staying as fit as possible, not only to be there for them as they grow, but also to ensure that anyone who dares to mess with them thinks twice 😉. So, Expect posts about some workouts, including some PR videos deadlifting, bench pressing, and squats or anything related.
 

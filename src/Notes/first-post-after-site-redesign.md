@@ -7,9 +7,7 @@ headerType: 'blogPost'
 # articleImgAlt: 'Image of Aerlytix new brand'
 ---
 
-Hello everyone,
-
-I’m excited to have launched the next redesign of my website in a while! This update marks a fresh start not just for the site’s look and feel, but also for how I engage a number of topics or interests I might like to write about.
+To baptise this redesign launch, I decided to create a first post to highlight a few of the items behind the decision. This update marks a fresh start not just for the site’s look and feel, but also for how I engage a number of topics or interests I might like to write about.
 
 In the past, I haven’t been very active in writing, often finding myself sharing snippets, reposts, and replies on platforms like X.com (by the way, my user handle is [@ifrantar](https://x.com/ifrantar)) and other social networks. However, I’ve decided to be more proactive from the realm of my own website. Moving forward, I’m committing to writing more thoughtful and periodic posts here on my blog. This space will serve as a journal where I can explore and share the things I’m passionate about.
 

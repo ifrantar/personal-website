@@ -1,6 +1,6 @@
 ---
 header: "Latest Notes"
-# summary: "Please write to us at info@aerlytix.com if you have a media enquiries. We'll do our best to get back to you as soon as possible."
+# summary: ""
 layout: 'layouts/feed.html'
 pagination:
   data: collections.notes

@@ -12998,6 +12998,13 @@ footer p {
   font-size: smaller;
 }
 
+.callout {
+  background: rgb(231, 231, 231);
+  border-left: 4px solid black;
+  padding: 2rem;
+  font-style: italic;
+}
+
 @media (max-width: 900px) {
   .post__container blockquote.callout {
     margin-left: 0;

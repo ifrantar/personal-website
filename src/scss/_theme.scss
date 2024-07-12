@@ -181,6 +181,13 @@ footer {
     }
 }
 
+.callout {
+    background: rgb(231, 231, 231);
+    border-left: 4px solid black;
+    padding: 2rem;
+    font-style: italic;
+}
+
 @media (max-width:900px) {
     .post {
         &__container {

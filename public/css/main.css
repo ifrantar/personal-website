@@ -12865,6 +12865,10 @@ hr {
   max-width: 1560px;
 }
 
+.container-sm {
+  max-width: 600px;
+}
+
 .post__container {
   max-width: 940px;
 }

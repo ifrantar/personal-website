@@ -13357,6 +13357,7 @@ a {
 .navbar .nav-item {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  margin-bottom: 0;
 }
 .navbar .nav-item .dropdown-menu {
   padding-top: 1rem;

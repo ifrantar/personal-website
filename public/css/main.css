@@ -13339,11 +13339,8 @@ a {
   padding-top: 0.65rem;
   padding-bottom: 0.65rem;
   background-color: rgba(255, 255, 255, 0.8);
-  /* Semi-transparent background */
   backdrop-filter: blur(10px);
-  /* Blur effect */
   -webkit-backdrop-filter: blur(10px);
-  /* For Safari support */
 }
 .navbar-collapse {
   flex-grow: inherit;

@@ -17,7 +17,8 @@
     </div>
     <div class="col-md-7">
       <section class="mb-5">
-        <h1 class="post__list--title"><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h1>
+        <h1 class="post__list--title"><a href="{{ item.url }}" class="post-list__link">{{ item.data.title | safe }}</a>
+        </h1>
         <p class="card-text">{{ item.data.intro }}</p>
         {% if item.data.tags %}
         {% for tag in item.data.tags %}

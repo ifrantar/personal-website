@@ -12604,6 +12604,7 @@ fieldset:disabled .btn {
   --bg-dark: #252f4d;
   --bg-dark-blue: #233F74;
   --bg-turquoise: #47C0DD;
+  --bs-body-color: #000000;
 }
 
 :root {
@@ -12747,7 +12748,6 @@ h6 {
 }
 
 h1 {
-  text-transform: uppercase;
   letter-spacing: -2px;
 }
 
@@ -12769,8 +12769,19 @@ li {
   font-weight: 800;
 }
 
+.display-1 {
+  line-height: 1;
+}
+
 .hero-display-1 {
-  font-size: 6rem !important;
+  font-size: 8rem !important;
+}
+
+.post__list--title {
+  letter-spacing: -1px;
+}
+.post__list a {
+  font-weight: 900;
 }
 
 @media screen and (max-width: 600px) {
@@ -12871,6 +12882,7 @@ hr {
 
 .post__container {
   max-width: 940px;
+  padding-bottom: 3rem;
 }
 .post__container blockquote {
   padding: 2rem 2rem 1rem;
@@ -12889,7 +12901,6 @@ hr {
   color: #000;
 }
 .post__list--title a {
-  text-decoration: none;
   color: var(--bs-heading-color);
 }
 .post__list--tags {
@@ -13011,7 +13022,8 @@ footer p {
   }
 }
 a {
-  color: var(--blue);
+  color: var(--black);
+  font-weight: 500;
 }
 
 .shadow {
@@ -13922,14 +13934,24 @@ a {
   padding: 30px;
   position: relative;
   overflow: hidden;
+  max-height: 868px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6fbff;
+  border: 4px solid black;
+  border-radius: 20px;
+  box-shadow: #000000 9px 9px 0px;
+}
+.case-studies__card--header h2 {
+  padding-right: 100px;
 }
 .case-studies__card--link {
   position: absolute;
   display: flex;
-  top: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
+  top: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
   background: white;
   border-radius: 100px;
   align-items: center;
@@ -13939,7 +13961,13 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+.case-studies__card--image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 .post__section {
   margin-bottom: 3.5rem;
 }

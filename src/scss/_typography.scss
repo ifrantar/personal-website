@@ -16,7 +16,6 @@ h6 {
 }
 
 h1 {
-    text-transform: uppercase;
     letter-spacing: -2px;
 }
 
@@ -43,9 +42,24 @@ li {
     font-weight: 800;
 }
 
+.display-1 {
+    line-height: 1;
+}
 
 .hero-display-1 {
-    font-size: 6rem !important;
+    font-size: 8rem !important;
+}
+
+.post {
+    &__list {
+        &--title {
+            letter-spacing: -1px;
+        }
+
+        a {
+            font-weight: 900;
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {

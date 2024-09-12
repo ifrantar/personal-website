@@ -1,5 +1,5 @@
 ---
-title: 'Build Solutions Based on Needs, Not on Requests'
+title: 'Build Solutions Based on Needs,<br> Not on Requests'
 date: '2024-08-23'
 tags: ['UX', 'product', 'design', 'insights']
 headerType: 'blogPost'

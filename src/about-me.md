@@ -32,7 +32,7 @@ layout: "layouts/page.html"
       <section class="mb-5">
         <div class="cv__header">
           <h4> Head of Design @ Aerlytix</h4>
-          <p>02/2020 — Present</p>
+          <p>02/2020 — 08/2024</p>
         </div>
         <p>In my role as Head of Design at Aerlytix, I lead the design efforts, addressing complex business problems and collaborating closely with project managers and executive stakeholders. I establish design principles that influence every aspect of the company's design and branding, while also spearheading marketing and communication initiatives. Additionally, I create operational processes that support our creative vision.</p>
       </section>

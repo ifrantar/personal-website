@@ -1,6 +1,6 @@
 {# this works and open possibilities for multiple header types if needed #}
 
-{% if headerType == 'blogPost' %}
+{% if headerType == 'blogPost' or headerType == 'blogPost_custom' %}
 <div class="header__blog-post">
   {% elseif headerType == 'caseStudy' %}
   <div class="header__blog-post header__blog-post--case-study">

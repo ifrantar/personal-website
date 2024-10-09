@@ -25,18 +25,22 @@
 
 {% include "partials/page-header.html" %}
 <article class="post__content">
-  <div class="container post__container mb-5">
+  {% if headerType == 'blogPost_custom' %}
+  <div class="mb-5">
+    {% else %}
+    <div class="container post__container mb-5">
+      {% endif %}
 
-    {{ content | safe }}
+      {{ content | safe }}
 
-  </div>
-  {% if recommendedPosts and recommendedPosts | length > 0 %}
-  <footer class="recommended-posts bg-light pt-5">
-    {% set postListItems = recommendedPosts %}
-    {% set postListHeadline = 'More Notes' %}
-    {% include "partials/post-list.html" %}
-  </footer>
-  {% endif %}
+    </div>
+    {% if recommendedPosts and recommendedPosts | length > 0 %}
+    <footer class="recommended-posts bg-light pt-5">
+      {% set postListItems = recommendedPosts %}
+      {% set postListHeadline = 'More Notes' %}
+      {% include "partials/post-list.html" %}
+    </footer>
+    {% endif %}
 </article>
 
 {% endblock %}

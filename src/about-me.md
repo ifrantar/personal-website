@@ -5,7 +5,6 @@ ctaButton: Download My CV
 ctaLink: Ivan_Frantar_CV.pdf
 layout: "layouts/page.html"
 ---
-
 <article class="py-2 px-2">
 
 <div class="container mb-5">
@@ -32,7 +31,7 @@ layout: "layouts/page.html"
      <section class="mb-5">
         <div class="cv__header">
           <h4>Principal UX Designer @ AIB bank</h4>
-          <p>02/2020 — 08/2024</p>
+          <p>10/2024 — Present</p>
         </div>
         <p>Currently focusing on the Payments Value Stream designing, ensuring seamless and user-friendly interactions across its next generation mobile app. My focus includes enhancing payment workflows, implementing design system improvements, and contributing with efficient collaboration processes to streamline our team workflows. I work closely with product owners and stakeholders to align user needs with business goals, advocating for a problem-first approach to design while refining key financial interactions for customers.</p>
       </section>

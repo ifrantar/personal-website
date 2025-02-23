@@ -29,9 +29,16 @@ layout: "layouts/page.html"
       <h2 class="fw-bold text-uppercase">Experience</h2>
     </div>
     <div class="col-md-7">
+     <section class="mb-5">
+        <div class="cv__header">
+          <h4>Principal UX Designer @ AIB bank</h4>
+          <p>02/2020 — 08/2024</p>
+        </div>
+        <p>Currently focusing on the Payments Value Stream designing, ensuring seamless and user-friendly interactions across its next generation mobile app. My focus includes enhancing payment workflows, implementing design system improvements, and contributing with efficient collaboration processes to streamline our team workflows. I work closely with product owners and stakeholders to align user needs with business goals, advocating for a problem-first approach to design while refining key financial interactions for customers.</p>
+      </section>
       <section class="mb-5">
         <div class="cv__header">
-          <h4> Head of Design @ Aerlytix</h4>
+          <h4>Head of Design @ Aerlytix</h4>
           <p>02/2020 — 08/2024</p>
         </div>
         <p>In my role as Head of Design at Aerlytix, I lead the design efforts, addressing complex business problems and collaborating closely with project managers and executive stakeholders. I establish design principles that influence every aspect of the company's design and branding, while also spearheading marketing and communication initiatives. Additionally, I create operational processes that support our creative vision.</p>

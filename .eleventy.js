@@ -36,7 +36,7 @@ module.exports = eleventyConfig => {
 
     // Returns a collection of blog posts in reverse date order
     eleventyConfig.addCollection('notes', collection => {
-        return [...collection.getFilteredByGlob('./src/notes/*.md')].reverse();
+        return [...collection.getFilteredByGlob('./src/Notes/*.md')].reverse();
     });
 
     // Generate folders based on note titles - I'LL WORK AROUND THIS LATER.
